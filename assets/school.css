@@ -1,0 +1,16 @@
+@import "./fonts/iransans/fonts.css";
+@import '~ngx-toastr/toastr';
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "~@fortawesome/fontawesome-free/css/fontawesome.min.css";
+html, body {
+  font-size: 14px;
+  background: $white;
+  margin: 0;
+  padding: 0;
+  font-variant-numeric: normal;
+  direction: rtl;
+  text-align: right;
+  display:flex; 
+  flex-direction:column; 
+  height:100vh;
+}
